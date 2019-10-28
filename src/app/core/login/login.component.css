@@ -1,0 +1,16 @@
+
+.border {
+  border: 1px solid yellow;
+}
+::ng-deep .mat-checkbox-frame {
+  border-color: transparent;
+}
+
+.mat-raised-button {
+    transition: none !important;
+    box-shadow: none !important;
+    outline: none;
+}
+.aux:hover {
+  color: white !important;
+}

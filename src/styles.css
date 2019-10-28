@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat-italic";
+  src: url("assets/fonts/Montserrat-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+.font-Mont{
+  font-family: "Montserrat";
+}
+
+.font-MontItalic{
+  font-family: "Montserrat-italic";
+}
+
+.mat-form-field-label {
+  color: rgba(255, 255, 255, 0.44) !important;
+}
+
+.mat-form-field-underline {
+  background-color: #ffffff !important;
+}
+.back {
+  background: url("./assets/Group1.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* filter: blur(17px);
+        -webkit-filter: blur(17px); */
+}
+.mat-ripple-element {
+  display: none !important;
+}
+.mat-checkbox-checked .mat-checkbox-checkmark{
+  opacity: 0.44 !important;
+  background: rgba(46, 46, 54, .44);
+}
+.mat-checkbox-checkmark {
+  border-radius: 3px !important;
+}
+.mat-raised-button:focus, .mat-raised-button:hover {
+  background: rgba(0,0,0,.3) !important;
+}
